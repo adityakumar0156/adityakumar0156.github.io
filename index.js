@@ -25,7 +25,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/14/2023 22:08:11",
         "Name": "Chiluvuri Manoj Venkata Rama Chandra Raju",
-        "College": "National institute of technology puducherry",
+        "College": "NIT puducherry",
         "State": "Andhra Pradesh",
         "CDSID": "CMANOJVE",
         "skillTeam": "IT",
@@ -52,7 +52,7 @@ const fcg_data = [{
         "College": "BIM TRICHY",
         "State": "Puducherry",
         "CDSID": "Agovin16",
-        "skillTeam": "FCG Finance",
+        "skillTeam": " Finance",
         "pic4web": "17Fl83bfsyBNVb22_4g2iuPqJpFR_TCoc",
         "quote": "Lives on Love, Laughter, Adventure & Hell lot of Memories!!",
         "pic4mag": "1lIsdHVLrW48wrQ0S_0H0SGB80C8hGGZ6",
@@ -230,7 +230,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/15/2023 20:43:17",
         "Name": "Pavithraa S",
-        "College": "NIT PY",
+        "College": "NIT Puducherry",
         "State": "PUDUCHERRY",
         "CDSID": "PS81",
         "skillTeam": "Purchase",
@@ -242,7 +242,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/15/2023 20:51:15",
         "Name": "Umayal G",
-        "College": "NIT PY",
+        "College": "NIT Puducherry",
         "State": "PUDUCHERRY",
         "CDSID": "UG5",
         "skillTeam": "Purchase",
@@ -290,7 +290,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/16/2023 08:35:45",
         "Name": "Yatham Ganesh Yadav",
-        "College": "NIT PY",
+        "College": "NIT Puducherry",
         "State": "Andhra Pradesh",
         "CDSID": "YGANESHY",
         "skillTeam": "IT",
@@ -305,7 +305,7 @@ const fcg_data = [{
         "College": "Great lakes Institute management, Chennai",
         "State": "Maharashtra",
         "CDSID": "NAGARKAR",
-        "skillTeam": "FCG Finance",
+        "skillTeam": " Finance",
         "pic4web": "1CuA61-rRjfHuyZ-geCTnogIYqi34x7Xz",
         "quote": "what if' could be the title of my autobiography.",
         "pic4mag": "1zmLiAaF9_88ISpKBUoRrhdx94C2htUZB",
@@ -338,7 +338,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/17/2023 22:07:02",
         "Name": "Chandreswar V",
-        "College": "National Institute of Technology, Puducherry",
+        "College": "NIT Puducherry",
         "State": "Puducherry",
         "CDSID": "CV7",
         "skillTeam": "IT",
@@ -362,7 +362,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/18/2023 10:21:39",
         "Name": "Parvathi Mohan",
-        "College": "National Institute of Technology Calicut",
+        "College": "NIT Calicut",
         "State": "Kerala",
         "CDSID": "pmohan23",
         "skillTeam": "Product Development-Cost Estimation",
@@ -374,7 +374,7 @@ const fcg_data = [{
     {
         "Timestamp": "09/18/2023 10:24:52",
         "Name": "M Karthik",
-        "College": "National Institute of Technology Puducherry",
+        "College": "NIT Puducherry",
         "State": "Andaman and Nicobar Islands",
         "CDSID": "km42",
         "skillTeam": "IT",
@@ -436,7 +436,7 @@ const lst_random_clicks = [
 const event_data = [{
         topic: "Vikara",
         desc: " A Digital Haven of Inspiration:  Explore a world of Vikara for discovery and inspiration.",
-        pic: "https://drive.google.com/uc?export=view&id=1blIX6eR4NgeYm5ilFoCWfgrqB-mgZSTu"
+        pic: "https://drive.google.com/uc?export=view&id=1cFzMrNo_blG5Vw_5wYWCSyEJIOdIlg0s"
     },
     {
         topic: "Curated Magazines and Distinctive Logo",
@@ -456,7 +456,7 @@ const event_data = [{
     {
         topic: "Peer Project Showcase",
         desc: " Collaborative Triumphs Explore innovative solutions and collaborative achievements.",
-        pic: "https://www.shutterstock.com/shutterstock/photos/359828912/display_1500/stock-photo-process-word-in-d-letters-and-team-pulling-to-illustrate-working-together-on-procedure-system-or-359828912.jpg"
+        pic: "https://media.istockphoto.com/id/1433126431/photo/silhouette-of-climbers-who-climbed-to-the-top-of-the-mountain-thanks-to-mutual-assistance-and.webp?b=1&s=170667a&w=0&k=20&c=VWsOmADt5CxfVwvTBIG3hm8T1s4-NqX76UEUuO1hCaI="
     },
     {
         topic: "Dance Extravaganza",

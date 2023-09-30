@@ -431,7 +431,19 @@ const lst_random_clicks = [
     '1aZeRRjZcon0rnHXRw-8PVL7Peypn4vmT',
     '1aZeRRjZcon0rnHXRw-8PVL7Peypn4vmT',
     '1aUrRdM9CBLh7Cm6Ey-ZlqIRljN6oc5xU',
-    '1aH05vmbimOoOPBItZ-ekKE6W_7R3H6lc'
+    '1aH05vmbimOoOPBItZ-ekKE6W_7R3H6lc',
+
+
+
+        '1MHBcP_X4G69kJ979e8Ibv5OhyI4PuMsR',
+    '1hWSnKiKj1wJ7WwWiJJnv2-Omzzw0iGBg',
+    '1YQ8Ut3MPcZYEVCtku6858xDvbDeUDLwW',
+    '14qlBYGj9fMTHF1GKtsqazroqnA1vM96m',
+    '16I5YgaSNbIFft2_g-HqphVEFNw5dea51',
+    '1GvsJsfXCYcmdNchG9pxOdl3FFG8RhNso',
+    '1kFc3L7CbwEqMaxYGn2lU1vx63hqLiLti',
+    '1w1_MRI1pkil_Z4SbPHYsl_1hVQkFJgN_',
+    '1vUZeazYM6Xx1ISr4nFFSXTR_ljOG5qFX'   
 ]
 const event_data = [{
         topic: "Vikara",
@@ -477,7 +489,21 @@ const lst_random_clicks2 = [
         '1azwAchsEZWR3alDGYxl8ggZDPJhWMwZZ',
         '1azbQ_N--oQJBAobOS_pAgmOu07y3a8gb',
         '1UjfzVx9wPPs8jwnI3sHx5hu0i9AqrD5t',
-        '1aH05vmbimOoOPBItZ-ekKE6W_7R3H6lc'
+        '1aH05vmbimOoOPBItZ-ekKE6W_7R3H6lc',
+
+
+        
+        '1x8QzaX6Lsoa2zcP2A6rQSgjrOTvR4YJL',
+        '1REbARILEqMKeKO8ZNllBVxFbEnOhg7GJ',
+        '152fcXR_YDFcswJp9ZN-GnlUQRkGYca3L',
+        '1MuSZHt3C2F8wDv9jyKG38N1YAjcEy9Z-',
+        '1w-1Q7ITxkXLTzSXbD4CgiCs4zWISKRdV',
+        '1Jbu1HhtG6QJ9QSGgqyCciz4mfSA-wgKF',
+        '1eJ-59uQXpolmRlM0AyOsKBw77mO_Gju-',
+        '1YxcZGcWA8pvWWl70ud8Zgy3PkktVbJSr',
+        '17bMBg8s_vE4qbuTf54hRTGxZ6isdPIlb',
+        '1vP6diZ7M1PInZg4vmZ_M8SsZClKjZl2V',
+        '1bf8cKJpT2Wmzt8hS_sHQDqIDtzOZqvZP'
     ]
     // https://drive.google.com/file/d/1Fk1Q8d_2AoDZbqVIWlvMEGNwJGomvocV/view?usp=drive_link
 const xclicked = () => {
@@ -545,8 +571,8 @@ setInterval(() => {
 let num1 = 0
 setInterval(() => {
     num1 += 1
-    document.getElementById("random-clicks").src = `https://drive.google.com/uc?export=view&id=${lst_random_clicks[num % 12]}`
-    document.getElementById("random-clicks2").src = `https://drive.google.com/uc?export=view&id=${lst_random_clicks2[num % 12]}`
+    document.getElementById("random-clicks").src = `https://drive.google.com/uc?export=view&id=${lst_random_clicks[num % 19]}`
+    document.getElementById("random-clicks2").src = `https://drive.google.com/uc?export=view&id=${lst_random_clicks2[num % 21]}`
     console.log(document.getElementById("random-clicks").src)
 }, 4500);
 

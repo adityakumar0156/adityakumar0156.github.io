@@ -318,9 +318,9 @@ const fcg_data = [{
         "State": "Uttar Pradesh",
         "CDSID": "RGAUTAM7",
         "skillTeam": "IT",
-        "pic4web": "1WVOmdSY4ejmz0AHGZSzVaYiUXW5FEyzZ",
-        "quote": "RJSTYLE_RJ",
-        "pic4mag": "13B0FUCIbHXI5AmA6DqdSEwPUEZj7JdDB",
+        "pic4web": "1d-OOddQUeh3mfa4DKSb7f8v_JUQINlrw",
+        "quote": You define your own life. Don't let other people write your script.",
+        "pic4mag": "1d-OOddQUeh3mfa4DKSb7f8v_JUQINlrw",
         "Items to add in Website (what things we can add that can make it more interesting like for example: Our FCG memory video)": "NA"
     },
     {

@@ -417,7 +417,9 @@ const lst_groupPic = [
     'https://drive.google.com/uc?export=view&id=1xtrvCmEpkCjDvCcwSeMfJmx12qJYnL7P',
     'https://drive.google.com/uc?export=view&id=1kga5O8YgLx5IuGBezMy5mc6V5pI8XUAk',
     'https://drive.google.com/uc?export=view&id=1GY1XS7aAA9RRbEmN_GFpSdBBMqYZAjod',
-    'https://drive.google.com/uc?export=view&id=1Fk1Q8d_2AoDZbqVIWlvMEGNwJGomvocV'
+    'https://drive.google.com/uc?export=view&id=1Fk1Q8d_2AoDZbqVIWlvMEGNwJGomvocV',
+     'https://drive.google.com/uc?export=view&id=1S8hiPMRd-78NUs9nmGB_7tiC9ca8Mn7D',
+        'https://drive.google.com/uc?export=view&id=1x771zV51FJ4mmvUzji0gBd8v1hYhcTzU'
 ]
 const lst_random_clicks = [
     '1asI9CdoD_Wra8OMs8QqLYV7l5JEeZ1fZ',
@@ -565,7 +567,7 @@ shuffleArray(lst_random_clicks2);
 let num = 0
 setInterval(() => {
     num += 1
-    document.getElementById("group-pic").src = lst_groupPic[num % 7]
+    document.getElementById("group-pic").src = lst_groupPic[num % 8]
     console.log(document.getElementById("group-pic").src)
 }, 5500);
 let num1 = 0

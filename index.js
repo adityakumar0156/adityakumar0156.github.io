@@ -418,7 +418,7 @@ const lst_groupPic = [
     'https://drive.google.com/uc?export=view&id=1kga5O8YgLx5IuGBezMy5mc6V5pI8XUAk',
     'https://drive.google.com/uc?export=view&id=1GY1XS7aAA9RRbEmN_GFpSdBBMqYZAjod',
     'https://drive.google.com/uc?export=view&id=1Fk1Q8d_2AoDZbqVIWlvMEGNwJGomvocV',
-     'https://drive.google.com/uc?export=view&id=1S8hiPMRd-78NUs9nmGB_7tiC9ca8Mn7D',
+     'https://drive.google.com/uc?export=view&id=1c6z-AWyVLeGWrumL0TT1egxReNE5WiHw',
         'https://drive.google.com/uc?export=view&id=1x771zV51FJ4mmvUzji0gBd8v1hYhcTzU'
 ]
 const lst_random_clicks = [

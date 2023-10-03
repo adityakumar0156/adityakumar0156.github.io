@@ -508,6 +508,86 @@ const lst_random_clicks2 = [
         '1bf8cKJpT2Wmzt8hS_sHQDqIDtzOZqvZP'
     ]
     // https://drive.google.com/file/d/1Fk1Q8d_2AoDZbqVIWlvMEGNwJGomvocV/view?usp=drive_link
+
+
+
+
+
+
+
+
+
+const experience_data = [{
+        "Timestamp": "09/29/2023 11:05:12",
+        "Name": "Sakshi Shetty",
+        "CDSID": "SSHETT22",
+        "skillTeam": "Finance",
+        "pic4web": "1tujEqvJi7v9JV35RP9eKWfbhqu0Ev1Tz",
+        "Exp": "FCG Training sessions have immensely helped us understand the Ford organization before we stepped into our corporate shoes."
+    },
+    {
+        "Timestamp": "09/29/2023 11:22:09",
+        "Name": "Rahul Gautam",
+        "CDSID": "RGAUTAM7",
+        "skillTeam": "IT",
+        "pic4web": "1WVOmdSY4ejmz0AHGZSzVaYiUXW5FEyzZ",
+        "Exp": "I had an amazing day at GTBC, starting with an introduction to the organization. We explored the workspace during a tracer-hunting activity and then got creative with chart paper, pens, and magazines. The training focused on Excellence, Focus, and Collaboration. A memorable part was a three-day workshop on break-through. We worked on a peer project about sodium-ion batteries, which was a valuable experience for my professional growth and teamwork skills."
+    },
+    {
+        "Timestamp": "09/29/2023 12:26:28",
+        "Name": "Upasana Sasikumar",
+        "CDSID": "USASIKUM@ford.com",
+        "skillTeam": "PD",
+        "pic4web": "1SVkm3njN-MMF1I1aJ4SxeHrf-OKpZJq7",
+        "Exp": "Being a part of the FCG programme helped me get to know people outside of my department and also allowed me to network across the organisation. Moreover, it gave me an opportunity to connect with leaders from different skill teams.\nIt helped in making my transition from campus into corporate life easier and allowed a slow integration into the workplace. I was able to bond with my peers and have friendships outside of my skill team. The training sessions were also very useful and helped me understand the culture around Ford and the way things work here. I am grateful for this experience and I hope to maintain the networks that I have built for myself and keep learning as I go forth in my career."
+    },
+    {
+        "Timestamp": "09/29/2023 12:26:28",
+        "Name": "Parvathi Mohan",
+        "CDSID": "pmohan23@ford.com",
+        "skillTeam": "PD",
+        "pic4web": "1BrG_7l10RKz-pDDQHcFNxit4G8L2_xMT",
+        "Exp": "First of all, I am so lucky that I got to work in this MNC. And the fact that it is very easy for us to reach to each and every employee in Ford is just amazing. So far we had many fun activities and very meaningful sessions as well. Hoping for the best for me in future in this company."
+    },
+    // {
+    //     "Timestamp": "09/29/2023 12:27:15",
+    //     "Name": "Parvathi Mohan",
+    //     "CDSID": "pmohan23@ford.com",
+    //     "skillTeam": "PD",
+    //     "pic4mag": "1BrG_7l10RKz-pDDQHcFNxit4G8L2_xMT",
+    //     "Exp": "First of all, I am so lucky that I got to work in this MNC. And the fact that it is very easy for us to reach to each and every employee in Ford is just amazing. So far we had many fun activities and very meaningful sessions as well. Hoping for the best for me in future in this company."
+    // },
+    {
+        "Timestamp": "09/29/2023 14:33:54",
+        "Name": "Shreyash Dudiwar",
+        "CDSID": "sdudiwar",
+        "skillTeam": "IT",
+        "pic4web": "1CXD9h0O7B-sPleV5H3Q1XWH-jhwTUJRa",
+        "Exp": "I was very excited when I got selected in Ford motor Company! When I visit our GTBC campus for 1 day, the company comes true to all my expectations & get excellent opportunity to learn more about the company cultures and values. Further on It's been amazing training sessions from our HR, Fun activities, Functional Overview & the most important that got a new family as FCG's here in new city Chennai!! Overall, my experience at ford has been enriching, and I am excited to continue my journey with this prestigious organization."
+    },
+    {
+        "Timestamp": "09/29/2023 15:15:37",
+        "Name": "Anoop Yadav",
+        "CDSID": "ayadav40",
+        "skillTeam": "Finance",
+        "pic4web": "1YqC6SM5QqclHKGYFqYQpw6Kt72Ln-J8b",
+        "Exp": "Throughout this immersive experience, I had the opportunity to interact with diverse teams leaders and develop a deep understanding of our company's operations. Got to know about how flexible is our organisation and how approachable are leaders.\nMoreover, enabling me to contribute effectively to our organization. I am now well-prepared to take on new challenges and make a meaningful impact in my role."
+    },
+    {
+        "Timestamp": "09/29/2023 15:20:49",
+        "Name": "Ekant Chandrakar",
+        "CDSID": "ECHANDR4",
+        "skillTeam": "IT",
+        "pic4web": "1VHmqanlh8ZXpkcos_JKe1bZoAwjyliYt",
+        "Exp": "I got opportunity to visit office for the first time at One Day @ GTBC event organised at Ford Global Technology and Bussiness Centre Chennai India in which I got to learn more about company and it's values. I joined as a Ford College Graduate in the IT team, and recently completed the 2 Month training. I learned a lot in the felicitator's sessions on different Interpersonal skills and got more knowledge on different Functions and ERG's of the company. The transition from the college to corporate was very smooth. I got opportunity to connect with colleagues and leaders. I am grateful for the enriching experience that I had during the training program, and excited to be part of this prestigious company Ford."
+    }
+]
+
+
+
+
+
+
 const xclicked = () => {
     console.log("xclicked clicked")
     document.getElementById("vid-box").style.position = "relative"
@@ -564,6 +644,7 @@ shuffleArray(fcg_data);
 shuffleArray(lst_groupPic);
 shuffleArray(lst_random_clicks);
 shuffleArray(lst_random_clicks2);
+shuffleArray(experience_data);
 let num = 0
 setInterval(() => {
     num += 1
@@ -577,6 +658,34 @@ setInterval(() => {
     document.getElementById("random-clicks2").src = `https://drive.google.com/uc?export=view&id=${lst_random_clicks2[num % 21]}`
     console.log(document.getElementById("random-clicks").src)
 }, 4500);
+
+
+
+
+let expInsIndex = 0;
+let str11 = ""
+setInterval(() => {
+    console.log("exp-section testing....")
+    str11 = `<div style="display: flex;max-width: 639px;margin: 30px auto;border: 1px solid #8080804f;padding: 41px 11px;border-radius: 12px;background: #f5f6ff;flex-direction: row;flex-wrap: wrap;justify-content: space-around;">
+    <div style="    width: 400px;    display: flex;   flex-direction: column;    justify-content: space-around;">
+        <div id="exp-instance" style="font-style: italic; font-weight: 300;"><span
+                style="font-size: 150%;font-weight: 600;">"</span>${experience_data[expInsIndex].Exp}<span style="font-size: 150%;font-weight: 600;">"</span></div>
+        <div id="exp-instance-name" style="text-align: end;font-weight: 500;width: 100%;">${experience_data[expInsIndex].Name}
+            <span id="exp-instance-team" style="font-size: 80%;margin-left:10px;">--${experience_data[expInsIndex].skillTeam}</span>
+        </div>
+    </div>
+    <div>
+        <img id="exp-instance-img" src="https://drive.google.com/uc?export=view&id=${experience_data[expInsIndex].pic4web}" alt=""
+            style="    width: 161px;    height: 289px;    object-fit: cover;    border-radius: 23px;">
+    </div>
+</div>`
+    document.getElementById('exp-section').innerHTML = str11;
+    expInsIndex = expInsIndex + 1
+    expInsIndex = expInsIndex % 6
+}, 18000);
+
+
+
 
 
 let str = `<div class="row">

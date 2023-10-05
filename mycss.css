@@ -26,6 +26,21 @@
     /* width: 30%; */
     height: 626px;
 }
+
+.kiranmayee {
+    flex-direction: column-reverse;
+    margin: 15px;
+}
+
+.kiranmayee2 {
+    flex-direction: column;
+    margin: 15px;
+}
+
+.desc-hr {
+    max-width: 90%;
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
 
@@ -59,5 +74,16 @@
         object-fit: cover;
         max-width: 100%;
         height: 626px;
+    }
+     .kiranmayee {
+        flex-direction: row;
+        margin: 15px;
+    }
+    .kiranmayee2 {
+        flex-direction: row;
+        margin: 15px;
+    }
+    .desc-hr {
+        max-width: 70%;
     }
 }
